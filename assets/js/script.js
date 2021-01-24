@@ -38,7 +38,7 @@ $(".saveBtn").on("click", function () {
 
 // Get items from local storage
 let loadItems = function() {
-    for(let i = 8; i <= 22; i++) {
+    for(let i = 8; i <= 17; i++) {
         $("#hour" + i + " .description").val(localStorage.getItem("hour" + i));
     }
 }
